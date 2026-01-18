@@ -19,9 +19,7 @@ def insertion_sort_decreasing(arr):
 
 
 if __name__ == "__main__":
-    data = [5, 2, 9, 1, 5, 6]
-    print("Original array:", data)
-    sorted_data = insertion_sort_decreasing(data)
-    print("Sorted array (decreasing):", sorted_data)
-
+    data = [8, 3, 5, 1, 9] # Another Example 
+    print("Before sorting:", data)
+    print("After sorting:", insertion_sort_decreasing(data))
 
